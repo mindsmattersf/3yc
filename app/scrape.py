@@ -103,7 +103,7 @@ def process_files(files):
             'week': week,
             'className': klass,
             'graduation_year': graduation_year,
-            'link': file_['selfLink'],
+            'link': file_['alternateLink'],
             'description': None,
             'tags': tags,
             'created': datetime.strptime(file_['createdDate'], "%Y-%m-%dT%H:%M:%S.%fZ").strftime('%Y-%m-%d'),
