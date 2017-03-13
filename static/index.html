@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minds Matter 3YC</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <style>
+    .container {
+      width: auto;
+      max-width: 830px;
+      padding: 0 15px;
+    }
+    .container .text-muted {
+      margin: 20px 0;
+    }
+    .page-header {
+      padding-bottom: 9px;
+      margin: 40px 0 20px;
+      border-bottom: 1px solid #eee;
+    }
+    .tag-group {
+      padding-top: 10px;
+    }
+    .btn {
+      margin-left:3px;
+    }
+    .button-wrapper .btn {
+      margin-bottom: 7px;
+    }
+    .tag {
+      display: inline;
+      padding: .2em .6em .3em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25em;
+      margin-left:2px;
+    }
+    .tag-primary {
+      background-color: #337ab7;
+    }
+    .tag-success {
+      background-color: #5cb85c;
+    }
+    .tag-warning {
+      background-color: #f0ad4e;
+    }
+    .diminished-text {
+      font-size: .85em;
+      color: #999;
+    }
+    a.deco-none {
+      color:#000000 !important;
+      text-decoration:none;
+    }
+    .lesson-item {
+      border-bottom: 1px solid #eee;
+      margin-top:10px;
+    }
+    img.profile-picture {
+      width: 20px;
+      height: 20px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="{{ url_for('static', filename='bundle.js') }}"></script>
+</body>
+</html>
