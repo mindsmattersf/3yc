@@ -13,4 +13,10 @@ class BaseConfig:
     GDRIVE_CACHE_TIME_IN_SECONDS = 3600
 
 
+class ProductionConfig(BaseConfig):
+
+    SECRET_KEY = os.environ.get('MMSF-3YC-SECRET-KEY')
+    DEBUG = False
+
+
 config = BaseConfig()
